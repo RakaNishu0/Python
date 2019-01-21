@@ -34,3 +34,4 @@ else:
 print("------4th session Ended")
 
 print("test for Git")
+print("test for Git and commit")
