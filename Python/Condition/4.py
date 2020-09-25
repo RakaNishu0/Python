@@ -1,4 +1,4 @@
-inp_value = 33
+inp_value = 11
 
 real_raka = 11
 real_nishu = 22

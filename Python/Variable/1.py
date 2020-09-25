@@ -5,7 +5,7 @@ print(x+5)
 
 
 name = "RakaNishu"
-print("Hello "+name+"!")
+print("Hello "+name+"!")                        ## + {} + = {}구간을 변수로 지정하기 위함
 
 
 donation = 200
