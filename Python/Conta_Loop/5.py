@@ -1,12 +1,12 @@
 inp_v = input("Year? :")
 inp_v = int(inp_v)
 
-#if inp_v ==
+# if inp_v ==
 #    print("Error. Only int()")
-#else:
+# else:
 #    print("Calculating...")
 
-#while inp_v >= 4:
+# while inp_v >= 4:
 #    inp_v = inp_v/4
 #    print(inp_v)
 
