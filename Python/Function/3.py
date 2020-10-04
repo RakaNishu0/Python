@@ -13,14 +13,15 @@
 # print(aa())
 #
 
-## return 으로 반환된 결과를 여러 곳에 여러 용도로 활용할 수 있다.
+# return 으로 반환된 결과를 여러 곳에 여러 용도로 활용할 수 있다.
 
 
 # print('a'*5)
 # print('aaaaa')
 
 
-def a(num):
-    return 'a'*num
+def a(num):             # 입력값을 변수로 받아서 표현할 수 있도록 함수를 만들어 본다
+    return 'a'*num      # 변수를 그대로 사용할 수 있음
 
-print(a(50))
+
+print(a(5))

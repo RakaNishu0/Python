@@ -1,6 +1,6 @@
 # python의 input()은 문자열로만 반환한다.
 
-#members = ['raka','nishu','luke','skywalker']
+# members = ['raka','nishu','luke','skywalker']
 # for id in members:
 #     if id == inp_value:
 #         print("Hello "+inp_value)
@@ -30,15 +30,16 @@
 
 input_id = input("Your ID..? : ")
 
-def login(i):
-    members = ['raka','nishu','luke','skywalker']
-    for user in members:
-        if user == i:
-            return True         # return은 결과값을 받는다. + return 이후의 문단은 무의미하다.
-    return False                # return 으로 반환된 결과를 여러 곳에 여러 용도로 활용할 수 있다.
+
+def login(i):                                               # 함수 login() 을 정의하려 한다. i 라는 변수에 입력값을 받을 예정
+    members = ['raka', 'nishu', 'luke', 'skywalker']        # 리스트를 만들고
+    for user in members:                                    # 리스트의 데이터를 user 라는 변수에 넣는다
+        if user == i:                                       # user 라는 변수와 i 라는 입력값(변수)이 같은가?를 비교한다
+            return True                                     # 참이라면 True 를 반환하고
+    return False                                            # 거짓이라면 False 를 반환하는 것으로 함수를 종료한다
 
 
-if login(input_id):
-    print('Hello '+input_id)
+if login(input_id):                                         # 실제 함수를 실행하는 부분. login()의 입력값은 위의 input_id 로 받아서 입력(=str)
+    print('Hello '+input_id)                                # 참이라면 프린트
 else:
-    print('Get Out..!!!')
+    print('Get Out..!!!')                                   # 거짓이라면 프린트하고 프로그램을 종료
